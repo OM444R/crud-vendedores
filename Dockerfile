@@ -26,12 +26,9 @@ COPY --from=builder /app/package*.json ./
 # Exponer el puerto que usa la aplicación
 EXPOSE 3000
 
-# Variables de entorno
+# Variables de entorno con valores por defecto
 ENV NODE_ENV=production
-ENV DB_HOST=mysql
-ENV DB_USER=root
-ENV DB_PASSWORD=password
-ENV DB_NAME=ventas
+ENV PORT=3000
 
 # Comando para iniciar la aplicación
 CMD ["node", "crud-vendedores/app.js"] 
