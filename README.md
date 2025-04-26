@@ -122,3 +122,8 @@ Esta aplicación está configurada para desplegarse automáticamente en Railway.
 ## Licencia
 
 ISC
+
+
+
+
+
