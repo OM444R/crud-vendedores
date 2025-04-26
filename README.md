@@ -1,6 +1,29 @@
-# Sistema de Gestión de Vendedores
+# CRUD de Vendedores
 
-Este es un sistema CRUD (Create, Read, Update, Delete) para la gestión de vendedores desarrollado con Node.js, Express y MySQL.
+Aplicación web para gestionar vendedores con las siguientes características:
+- Listado paginado de vendedores
+- Búsqueda y filtrado
+- Creación, edición y eliminación de vendedores
+- Exportación a PDF, CSV y HTML
+
+## Despliegue Automático
+
+Esta aplicación está configurada para desplegarse automáticamente en Railway.app usando GitHub Actions.
+
+### Tecnologías utilizadas
+- Node.js
+- Express
+- MySQL
+- Docker
+- GitHub Actions
+- Railway.app
+
+### Variables de entorno necesarias
+- DB_HOST
+- DB_USER
+- DB_PASSWORD
+- DB_NAME
+- PORT
 
 ## Requisitos Previos
 
